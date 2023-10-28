@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nvHome">
+
+    <fragment
+        android:id="@+id/nvHome"
+        android:name="com.example.testsalehere.page.home.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nvPocket"
+        android:name="com.example.testsalehere.page.pocket.PocketFragment"
+        tools:layout="@layout/fragment_pocket" />
+
+    <fragment
+        android:id="@+id/nvAchievement"
+        android:name="com.example.testsalehere.page.achievement.AchievementFragment"
+        tools:layout="@layout/fragment_achievement" />
+
+    <fragment
+        android:id="@+id/nvProfile"
+        android:name="com.example.testsalehere.page.profile.ProfileFragment"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nvGoal"
+        android:name="com.example.testsalehere.page.goal.GoalFragment"
+        tools:layout="@layout/fragment_goal" />
+</navigation>
